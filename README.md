@@ -12,3 +12,7 @@ $ ./lsx -n 100 -r -f .
 # Display the first 100 files (in full path format) from the current directly
 $ ./lsx -n 100 -f .
 ```
+
+## License
+Copyright (c) 2014 Takahiro Poly Horikawa
+Licensed under the MIT License
