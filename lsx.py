@@ -8,7 +8,7 @@ def main(args):
     files = os.listdir(absroot)
     count = 0
     if args.random and args.num > 0:
-        files = random.sample(files, args.num)
+        files = random.sample(files, min(args.num, len(files)))
 
     for f in files:
         if args.full:
