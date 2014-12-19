@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- 
 
-import os, sys, argparse, json, requests, random
+import os, sys, argparse, random
 
 def main(args):
     absroot = os.path.abspath(args.dir)
